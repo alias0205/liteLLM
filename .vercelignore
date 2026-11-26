@@ -9,7 +9,6 @@ docs
 tests
 cookbook
 enterprise
-litellm-rust
 terraform
 helm
 deploy
