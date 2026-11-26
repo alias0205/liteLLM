@@ -1,0 +1,57 @@
+▲ Next.js 16.3.6 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+- Environments: .env.development
+✓ Ready in 5.8s
+✓ Running next.config.mjs took 44ms
+Creating turbopack project {
+  dir: 'C:\\projects\\Hector\\litellm\\ui\\litellm-dashboard',
+  testMode: true
+}
+- Experiments (use with caution):
+  ⨯ useTypeScriptCli
+
+○ Compiling / ...
+ GET /ui/ 200 in 1845ms (next.js: 11ms, application-code: 1834ms)
+ GET /ui/ 200 in 33ms (next.js: 3ms, application-code: 30ms)
+ GET / 200 in 74ms (next.js: 6ms, application-code: 68ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 552ms (next.js: 477ms, application-code: 75ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 35ms (next.js: 2ms, application-code: 32ms)
+ GET /ui/ 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET /ui/ 200 in 35ms (next.js: 3ms, application-code: 32ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 39ms (next.js: 3ms, application-code: 35ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 38ms (next.js: 3ms, application-code: 35ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 32ms (next.js: 2ms, application-code: 30ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 31ms (next.js: 2ms, application-code: 29ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 41ms (next.js: 2ms, application-code: 39ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 30ms (next.js: 2ms, application-code: 28ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 29ms (next.js: 2ms, application-code: 27ms)
+ GET /ui/ 200 in 38ms (next.js: 3ms, application-code: 34ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2Fui%2F 200 in 54ms (next.js: 3ms, application-code: 51ms)
+ GET /ui/ 200 in 30ms (next.js: 4ms, application-code: 25ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2Fui%2F 200 in 51ms (next.js: 9ms, application-code: 42ms)
+ GET /ui/ 200 in 22ms (next.js: 4ms, application-code: 18ms)
+ GET /models-and-endpoints 200 in 1769ms (next.js: 1742ms, application-code: 28ms)
+ GET /models-and-endpoints 200 in 208ms (next.js: 12ms, application-code: 196ms)
+ GET /models-and-endpoints 200 in 64ms (next.js: 5ms, application-code: 60ms)
+ GET /models-and-endpoints 200 in 50ms (next.js: 15ms, application-code: 36ms)
+ GET /models-and-endpoints 200 in 36ms (next.js: 3ms, application-code: 32ms)
+ GET /playground 200 in 1602ms (next.js: 1569ms, application-code: 34ms)
+ GET /api-keys 200 in 1675ms (next.js: 1649ms, application-code: 26ms)
+ GET /api-keys 200 in 53ms (next.js: 12ms, application-code: 41ms)
+ GET / 200 in 50ms (next.js: 6ms, application-code: 43ms)
+ GET /models-and-endpoints 200 in 21ms (next.js: 6ms, application-code: 14ms)
+ GET / 200 in 322ms (next.js: 109ms, application-code: 213ms)
+ GET /models-and-endpoints 200 in 94ms (next.js: 33ms, application-code: 61ms)
+ GET /models-and-endpoints 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET /models-and-endpoints 200 in 49ms (next.js: 3ms, application-code: 46ms)
+ GET /models-and-endpoints 200 in 35ms (next.js: 3ms, application-code: 31ms)
+ GET /models-and-endpoints 200 in 38ms (next.js: 4ms, application-code: 34ms)
+ GET /models-and-endpoints 200 in 34ms (next.js: 3ms, application-code: 31ms)
+ GET / 200 in 36ms (next.js: 4ms, application-code: 32ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 366ms (next.js: 325ms, application-code: 41ms)
+ GET /ui/login/?redirect_to=http%3A%2F%2Flocalhost%3A3000%2F 200 in 28ms (next.js: 2ms, application-code: 26ms)
+ GET /ui/login/ 200 in 28ms (next.js: 2ms, application-code: 26ms)
+ GET /ui/ 200 in 32ms (next.js: 3ms, application-code: 29ms)
+ GET /ui/login/ 200 in 34ms (next.js: 4ms, application-code: 30ms)

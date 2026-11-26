@@ -1,0 +1,748 @@
+<frozen runpy>:128: RuntimeWarning: 'litellm.proxy.proxy_cli' found in sys.modules after import of package 'litellm.proxy', but prior to execution of 'litellm.proxy.proxy_cli'; this may result in unpredictable behaviour
+2026-10-09 10:19:53,424 - litellm_proxy_extras - INFO - Preparing the Prisma CLI toolchain (timeout 600.0s)
+2026-10-09 10:20:01,516 - litellm_proxy_extras - INFO - Prisma CLI toolchain ready
+2026-10-09 10:20:01,517 - litellm_proxy_extras - INFO - Using v2 migration resolver (--use_v2_migration_resolver)
+2026-10-09 10:20:01,820 - litellm_proxy_extras - INFO - Found 206 migrations at C:\projects\Hector\litellm\litellm-proxy-extras\litellm_proxy_extras
+2026-10-09 10:20:21,451 - litellm_proxy_extras - INFO - prisma migrate deploy stdout: Environment variables loaded from ..\..\.env
+Prisma schema loaded from schema.prisma
+Datasource "client": PostgreSQL database "neondb", schema "public" at "ep-small-feather-b4jrk7cy.c-6.us-east-2.aws.neon.tech"
+
+206 migrations found in prisma/migrations
+
+
+No pending migrations to apply.
+
+INFO:     Started server process [14700]
+INFO:     Waiting for application startup.
+2026-10-09 10:20:29,000 - litellm_proxy_extras - INFO - Request-log indexes are all in place
+10:20:35 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:4000 (Press CTRL+C to quit)
+10:49:43 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+10:49:54 - LiteLLM Proxy:ERROR: proxy_server.py:8743 - Error in _check_and_reload_model_cost_map: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8703, in _check_and_reload_model_cost_map
+    schedule = await read_reload_schedule(prisma_client, MODEL_COST_MAP_RELOAD_PARAM_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\common_utils\periodic_reload_schedule.py", line 175, in read_reload_schedule
+    row = await _config_table(prisma_client).find_unique(where={"param_name": param_name})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29123, in find_unique
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+10:49:58 - LiteLLM Proxy:WARNING: proxy_setting_endpoints.py:1756 - Could not refresh UI settings from the database: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Execution of job "ProxyConfig.add_deployment (trigger: interval[0:00:30][+1s], next run at: 2026-10-09 10:50:04 +09)" skipped: maximum number of running instances reached (1)
+11:09:39 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+11:25:19 - LiteLLM Proxy:ERROR: proxy_server.py:8743 - Error in _check_and_reload_model_cost_map: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8703, in _check_and_reload_model_cost_map
+    schedule = await read_reload_schedule(prisma_client, MODEL_COST_MAP_RELOAD_PARAM_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\common_utils\periodic_reload_schedule.py", line 175, in read_reload_schedule
+    row = await _config_table(prisma_client).find_unique(where={"param_name": param_name})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29123, in find_unique
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 184, in handle_response_errors
+    kind = user_facing.get('meta', {}).get('kind')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+11:25:23 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+11:25:28 - LiteLLM Proxy:WARNING: proxy_setting_endpoints.py:1756 - Could not refresh UI settings from the database: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Execution of job "ProxyConfig.add_deployment (trigger: interval[0:00:30][+1s], next run at: 2026-10-09 11:25:34 +09)" skipped: maximum number of running instances reached (1)
+11:25:35 - LiteLLM Proxy:ERROR: proxy_server.py:8743 - Error in _check_and_reload_model_cost_map: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8703, in _check_and_reload_model_cost_map
+    schedule = await read_reload_schedule(prisma_client, MODEL_COST_MAP_RELOAD_PARAM_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\common_utils\periodic_reload_schedule.py", line 175, in read_reload_schedule
+    row = await _config_table(prisma_client).find_unique(where={"param_name": param_name})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29123, in find_unique
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:38 - LiteLLM Proxy:ERROR: proxy_server.py:8201 - litellm.proxy_server.py::add_deployment() - Error getting new models from DB - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8195, in _get_models_from_db
+    new_models: Final[Sequence[_ProxyModelRow]] = await ModelRepository(
+                                                  ^^^^^^^^^^^^^^^^^^^^^^
+        WriterPinnedClient(prisma_client.db)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).table.find_many()
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 2539, in find_many
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:43 - LiteLLM Proxy:ERROR: proxy_server.py:9235 - litellm.proxy_server.py::get_credentials() - Error getting credentials from DB - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 9230, in get_credentials
+    credentials = await CredentialsRepository(WriterPinnedClient(prisma_client.db)).find_all()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\repositories\credentials_repository.py", line 67, in find_all
+    return await self.table.find_many()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 1501, in find_many
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:WARNING: utils.py:6448 - Attempting Prisma DB reconnect. reason=prisma_get_generic_data_config_lookup_failure
+11:25:48 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:48 - LiteLLM Proxy:WARNING: proxy_server.py:7564 - Failed to load config in _update_llm_router: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.. Proceeding with model loading using cached/empty config.
+11:25:48 - LiteLLM Proxy:WARNING: proxy_server.py:7574 - _update_llm_router: DB model fetch returned None (transient failure). Skipping router update to preserve existing deployments.
+11:25:50 - LiteLLM Proxy:ERROR: utils.py:6489 - Prisma DB reconnect failed (1 consecutive). reason=prisma_get_generic_data_config_lookup_failure error=
+11:25:50 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:53 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:53 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:53 - LiteLLM Proxy:ERROR: proxy_server.py:8288 - litellm.proxy.proxy_server.py::ProxyConfig:add_deployment - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8274, in _add_deployment_locked
+    db_general_settings: Final[_ConfigParamRow | None] = await get_config_param(
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+        prisma_client, "general_settings"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4353, in get_config_param
+    row: Final = await prisma_client.get_generic_data(key="param_name", value=param_name, table_name="config")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\log_db_metrics.py", line 170, in wrapper
+    raise e
+  File "C:\projects\Hector\litellm\litellm\proxy\db\log_db_metrics.py", line 139, in wrapper
+    result: Final = await func(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\backoff\_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4852, in get_generic_data
+    raise e
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4831, in get_generic_data
+    return await call_with_db_reconnect_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\exception_handler.py", line 582, in call_with_db_reconnect_retry
+    return await coro_factory()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4825, in _do_query
+    return await config_table.find_first(where={key: value})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29305, in find_first
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 116, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:25:55 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+11:26:05 - LiteLLM Proxy:ERROR: proxy_server.py:8743 - Error in _check_and_reload_model_cost_map: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8703, in _check_and_reload_model_cost_map
+    schedule = await read_reload_schedule(prisma_client, MODEL_COST_MAP_RELOAD_PARAM_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\common_utils\periodic_reload_schedule.py", line 175, in read_reload_schedule
+    row = await _config_table(prisma_client).find_unique(where={"param_name": param_name})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29123, in find_unique
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:09 - LiteLLM Proxy:WARNING: proxy_setting_endpoints.py:1756 - Could not refresh UI settings from the database: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:19 - LiteLLM Proxy:ERROR: proxy_server.py:8201 - litellm.proxy_server.py::add_deployment() - Error getting new models from DB - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8195, in _get_models_from_db
+    new_models: Final[Sequence[_ProxyModelRow]] = await ModelRepository(
+                                                  ^^^^^^^^^^^^^^^^^^^^^^
+        WriterPinnedClient(prisma_client.db)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).table.find_many()
+    ^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 2539, in find_many
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:24 - LiteLLM Proxy:ERROR: proxy_server.py:9235 - litellm.proxy_server.py::get_credentials() - Error getting credentials from DB - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 9230, in get_credentials
+    credentials = await CredentialsRepository(WriterPinnedClient(prisma_client.db)).find_all()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\repositories\credentials_repository.py", line 67, in find_all
+    return await self.table.find_many()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 1501, in find_many
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:27 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+11:26:29 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:29 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:29 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:29 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:29 - LiteLLM Proxy:WARNING: utils.py:6448 - Attempting Prisma DB reconnect. reason=prisma_get_generic_data_config_lookup_failure
+11:26:29 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:29 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:29 - LiteLLM Proxy:WARNING: proxy_server.py:7564 - Failed to load config in _update_llm_router: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.. Proceeding with model loading using cached/empty config.
+11:26:29 - LiteLLM Proxy:WARNING: proxy_server.py:7574 - _update_llm_router: DB model fetch returned None (transient failure). Skipping router update to preserve existing deployments.
+11:26:29 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:31 - LiteLLM Proxy:ERROR: utils.py:6489 - Prisma DB reconnect failed (2 consecutive). reason=prisma_get_generic_data_config_lookup_failure error=
+11:26:31 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Execution of job "ProxyConfig.add_deployment (trigger: interval[0:00:30][+1s], next run at: 2026-10-09 11:26:34 +09)" skipped: maximum number of running instances reached (1)
+11:26:34 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:34 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:34 - LiteLLM Proxy:ERROR: proxy_server.py:8288 - litellm.proxy.proxy_server.py::ProxyConfig:add_deployment - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8274, in _add_deployment_locked
+    db_general_settings: Final[_ConfigParamRow | None] = await get_config_param(
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+        prisma_client, "general_settings"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4353, in get_config_param
+    row: Final = await prisma_client.get_generic_data(key="param_name", value=param_name, table_name="config")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\log_db_metrics.py", line 170, in wrapper
+    raise e
+  File "C:\projects\Hector\litellm\litellm\proxy\db\log_db_metrics.py", line 139, in wrapper
+    result: Final = await func(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\backoff\_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4852, in get_generic_data
+    raise e
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4831, in get_generic_data
+    return await call_with_db_reconnect_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\exception_handler.py", line 582, in call_with_db_reconnect_retry
+    return await coro_factory()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4825, in _do_query
+    return await config_table.find_first(where={key: value})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29305, in find_first
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 116, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:35 - LiteLLM Proxy:ERROR: proxy_server.py:8743 - Error in _check_and_reload_model_cost_map: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8703, in _check_and_reload_model_cost_map
+    schedule = await read_reload_schedule(prisma_client, MODEL_COST_MAP_RELOAD_PARAM_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\common_utils\periodic_reload_schedule.py", line 175, in read_reload_schedule
+    row = await _config_table(prisma_client).find_unique(where={"param_name": param_name})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29123, in find_unique
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:26:59 - LiteLLM Proxy:WARNING: baseline_accounting.py:688 - Auto-router baseline projection will retry on a later spend flush
+11:27:05 - LiteLLM Proxy:ERROR: proxy_server.py:8743 - Error in _check_and_reload_model_cost_map: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8703, in _check_and_reload_model_cost_map
+    schedule = await read_reload_schedule(prisma_client, MODEL_COST_MAP_RELOAD_PARAM_NAME)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\common_utils\periodic_reload_schedule.py", line 175, in read_reload_schedule
+    row = await _config_table(prisma_client).find_unique(where={"param_name": param_name})
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29123, in find_unique
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 120, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:27:09 - LiteLLM Proxy:WARNING: proxy_setting_endpoints.py:1756 - Could not refresh UI settings from the database: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:37:10 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:37:10 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:37:10 - LiteLLM Proxy:WARNING: utils.py:6448 - Attempting Prisma DB reconnect. reason=prisma_get_generic_data_config_lookup_failure
+11:37:10 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+11:37:10 - LiteLLM Proxy:ERROR: proxy_server.py:9235 - litellm.proxy_server.py::get_credentials() - Error getting credentials from DB - Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 9232, in get_credentials
+    await self.delete_credentials(credentials)  # delete credentials that are not in the all-up list
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 9214, in delete_credentials
+    config: Final = await self.get_config(config_file_path=user_config_file_path)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 6147, in get_config
+    config = await self._update_config_from_db(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\litellm\proxy\proxy_server.py", line 8116, in _update_config_from_db
+    responses: Final = await asyncio.gather(*(get_config_param(prisma_client, section) for section in sections))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4353, in get_config_param
+    row: Final = await prisma_client.get_generic_data(key="param_name", value=param_name, table_name="config")
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\log_db_metrics.py", line 170, in wrapper
+    raise e
+  File "C:\projects\Hector\litellm\litellm\proxy\db\log_db_metrics.py", line 139, in wrapper
+    result: Final = await func(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\backoff\_async.py", line 151, in retry
+    ret = await target(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4852, in get_generic_data
+    raise e
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4831, in get_generic_data
+    return await call_with_db_reconnect_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\exception_handler.py", line 582, in call_with_db_reconnect_retry
+    return await coro_factory()
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\utils.py", line 4825, in _do_query
+    return await config_table.find_first(where={key: value})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\actions.py", line 29305, in find_first
+    resp = await self._client._execute(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\client.py", line 762, in _execute
+    return await self._engine.query(builder.build(), tx_id=self._tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\litellm\proxy\db\prisma_client.py", line 116, in query
+    return await self._engine.query(content, tx_id=tx_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\query.py", line 244, in query
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\http.py", line 141, in request
+    return utils.handle_response_errors(resp, errors_data)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\prisma\engine\utils.py", line 200, in handle_response_errors
+    raise prisma_errors.DataError(data[0])
+prisma.errors.DataError: Can't reach database server at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`
+
+Please make sure your database server is running at `ep-small-feather-b4jrk7cy-pooler.c-6.us-east-2.aws.neon.tech`:`5432`.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+11:37:14 - LiteLLM Proxy:WARNING: exception_handler.py:608 - DB transport error on read; attempting reconnect-and-retry. reason=prisma_get_generic_data_config_lookup_failure error=
+11:37:14 - LiteLLM Proxy:ERROR: utils.py:4838 - LiteLLM Prisma Client Exception get_generic_data: 
+11:37:14 - LiteLLM Proxy:WARNING: proxy_server.py:7564 - Failed to load config in _update_llm_router: . Proceeding with model loading using cached/empty config.
+11:37:16 - LiteLLM Proxy:ERROR: proxy_server.py:8288 - litellm.proxy.proxy_server.py::ProxyConfig:add_deployment - All connection attempts failed
+Traceback (most recent call last):
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv-tools\py... (litellm_truncated skipped 2652 chars. Truncation is a stdout logging safeguard. Full, untruncated data is logged to logging callbacks (OTEL, Datadog, etc.) and at DEBUG level. To increase the truncation limit, set `MAX_STRING_LENGTH_STDOUT_LOG` in your env.) ...se(await self.session.request(method, url, **kwargs))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\projects\Hector\litellm\.venv-tools\python\cpython-3.13-windows-x86_64-none\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\projects\Hector\litellm\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14700]

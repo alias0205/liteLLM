@@ -1,0 +1,5404 @@
+Failed to proxy http://127.0.0.1:4000/api/ekg/v1/auth/status Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+(node:16212) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components 
+[browser] A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components 
+[browser] A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components 
+Failed to proxy http://127.0.0.1:4000/health/test_connection Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[browser] Received non-JSON response: Internal Server Error 
+    at testConnectionRequest (src/components/networking.tsx:2200:15)
+    at async testModelConnection (src/components/add_model/model_connection_test.tsx:54:24)
+  2198 |     if (!contentType || !contentType.includes("application/json")) {
+  2199 |       const text = await response.text();
+> 2200 |       console.error("Received non-JSON response:", text);
+       |               ^
+  2201 |       throw new Error(
+  2202 |         `Received non-JSON response (${response.status}: ${response.statusText}). Check network tab for details.`,
+  2203 |       ); (src/components/networking.tsx:2200:15)
+[browser] Model connection test error: Error: Received non-JSON response (500: Internal Server Error). Check network tab for details.
+    at testConnectionRequest (src/components/networking.tsx:2201:13)
+    at async testModelConnection (src/components/add_model/model_connection_test.tsx:54:24)
+  2199 |       const text = await response.text();
+  2200 |       console.error("Received non-JSON response:", text);
+> 2201 |       throw new Error(
+       |             ^
+  2202 |         `Received non-JSON response (${response.status}: ${response.statusText}). Check network tab for details.`,
+  2203 |       );
+  2204 |     } (src/components/networking.tsx:2223:13)
+[browser] Test connection error: Error: Received non-JSON response (500: Internal Server Error). Check network tab for details.
+    at testConnectionRequest (src/components/networking.tsx:2201:13)
+    at async testModelConnection (src/components/add_model/model_connection_test.tsx:54:24)
+  2199 |       const text = await response.text();
+  2200 |       console.error("Received non-JSON response:", text);
+> 2201 |       throw new Error(
+       |             ^
+  2202 |         `Received non-JSON response (${response.status}: ${response.statusText}). Check network tab for details.`,
+  2203 |       );
+  2204 |     } (src/components/add_model/model_connection_test.tsx:67:15)
+[browser] Input contains an input of type text with both value and defaultValue props. Input elements must be either controlled or uncontrolled (specify either the value prop, or the defaultValue prop, but not both). Decide between using a controlled or uncontrolled input element and remove one of these props. More info: https://react.dev/link/controlled-components 
+[browser] A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components 
+[browser] A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components 
+[browser] In HTML, <button> cannot be a descendant of <button>.
+This will cause a hydration error.
+
+  ...
+    <CompositeList elementsRef={{current:[...]}}>
+      <div data-orientation="horizontal" data-activation-direction="none" data-slot="tabs" ref={null} ...>
+        <TabsList>
+        <TabsContent>
+        <TabsContent>
+        <TabsContent value="compliance" className="mt-0 h-ful..." keepMounted={true}>
+          <TabsPanel data-slot="tabs-content" className="flex-1 tex..." value="compliance" keepMounted={true}>
+            <div data-hidden="" data-orientation="horizontal" data-activation-direction="none" ...>
+              <ComplianceUI accessToken="sk-1INHcZK..." disabledPersonalKeyCreation={false}>
+                <div className="w-full h-f...">
+                  <div className="rounded-2x...">
+                    <div>
+                    <div className="flex flex-...">
+                      <div className="w-[400px] ...">
+                        <div className="flex-1 ove...">
+                          <div>
+                          <div className="px-4 pb-4 ...">
+                            <div className="rounded-lg...">
+>                             <button
+>                               type="button"
+>                               onClick={function onClick}
+>                               className="w-full flex items-center gap-2 px-3 py-2.5 text-left bg-muted hover:bg-acce..."
+>                             >
+                                <ChevronDown>
+                                <CategoryIcon>
+                                <div>
+>                               <button
+>                                 type="button"
+>                                 onClick={function onClick}
+>                                 className="text-[10px] font-medium text-info px-1.5 py-0.5 rounded-sm hover:bg-info/..."
+>                               >
+                              ...
+                            ...
+                      ...
+        ...
+ 
+Failed to proxy http://127.0.0.1:4000/model/new Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async modelCreateCall (src/components/networking.tsx:682:18)
+    at async handleAddModelSubmit (src/components/add_model/handle_add_model_submit.tsx:221:7)
+    at async handleOk (src/app/(dashboard)/models-and-endpoints/panels/AddModelPanel.tsx:42:5)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:697:13)
+[browser] A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components 
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/readiness/details Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/license Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/user/available_users Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/credentials Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+Failed to proxy http://127.0.0.1:4000/get/latest_release_info Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to fetch license info: Error: Network response was not ok
+    at getLicenseInfo (src/components/networking.tsx:6419:13)
+  6417 |       const errorData = await response.text();
+  6418 |       handleError(errorData);
+> 6419 |       throw new Error("Network response was not ok");
+       |             ^
+  6420 |     }
+  6421 |
+  6422 |     const data = await response.json(); (src/components/networking.tsx:6425:13)
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/tag/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to fetch remaining users: Error: Network response was not ok
+    at getRemainingUsers (src/components/networking.tsx:6379:13)
+  6377 |       const errorData = await response.text();
+  6378 |       handleError(errorData);
+> 6379 |       throw new Error("Network response was not ok");
+       |             ^
+  6380 |     }
+  6381 |
+  6382 |     const data = await response.json(); (src/components/networking.tsx:6385:13)
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async credentialListCall (src/components/networking.tsx:2537:18)
+    at async useCredentials.useQuery (src/app/(dashboard)/hooks/credentials/useCredentials.ts:12:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:2541:13)
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get guardrails list: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:3703:15)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/credentials Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async credentialListCall (src/components/networking.tsx:2537:18)
+    at async useCredentials.useQuery (src/app/(dashboard)/hooks/credentials/useCredentials.ts:12:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:2541:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/v2/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get guardrails list: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:3703:15)
+Failed to proxy http://127.0.0.1:4000/health/readiness/details Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/latest_release_info Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/license Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/user/available_users Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/tag/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to fetch license info: Error: Network response was not ok
+    at getLicenseInfo (src/components/networking.tsx:6419:13)
+  6417 |       const errorData = await response.text();
+  6418 |       handleError(errorData);
+> 6419 |       throw new Error("Network response was not ok");
+       |             ^
+  6420 |     }
+  6421 |
+  6422 |     const data = await response.json(); (src/components/networking.tsx:6425:13)
+Failed to proxy http://127.0.0.1:4000/credentials Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to fetch remaining users: Error: Network response was not ok
+    at getRemainingUsers (src/components/networking.tsx:6379:13)
+  6377 |       const errorData = await response.text();
+  6378 |       handleError(errorData);
+> 6379 |       throw new Error("Network response was not ok");
+       |             ^
+  6380 |     }
+  6381 |
+  6382 |     const data = await response.json(); (src/components/networking.tsx:6385:13)
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async credentialListCall (src/components/networking.tsx:2537:18)
+    at async useCredentials.useQuery (src/app/(dashboard)/hooks/credentials/useCredentials.ts:12:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:2541:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+[browser] Failed to get guardrails list: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:3703:15)
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/credentials Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async credentialListCall (src/components/networking.tsx:2537:18)
+    at async useCredentials.useQuery (src/app/(dashboard)/hooks/credentials/useCredentials.ts:12:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:2541:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/guardrails/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get guardrails list: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:3703:15)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/license Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/user/available_users Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/readiness/details Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+[browser] Failed to fetch license info: Error: Network response was not ok
+    at getLicenseInfo (src/components/networking.tsx:6419:13)
+  6417 |       const errorData = await response.text();
+  6418 |       handleError(errorData);
+> 6419 |       throw new Error("Network response was not ok");
+       |             ^
+  6420 |     }
+  6421 |
+  6422 |     const data = await response.json(); (src/components/networking.tsx:6425:13)
+[browser] Failed to fetch remaining users: Error: Network response was not ok
+    at getRemainingUsers (src/components/networking.tsx:6379:13)
+  6377 |       const errorData = await response.text();
+  6378 |       handleError(errorData);
+> 6379 |       throw new Error("Network response was not ok");
+       |             ^
+  6380 |     }
+  6381 |
+  6382 |     const data = await response.json(); (src/components/networking.tsx:6385:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/api/plugins Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/latest_release_info Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/license Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/user/available_users Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/readiness/details Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+[browser] Failed to fetch license info: Error: Network response was not ok
+    at getLicenseInfo (src/components/networking.tsx:6419:13)
+  6417 |       const errorData = await response.text();
+  6418 |       handleError(errorData);
+> 6419 |       throw new Error("Network response was not ok");
+       |             ^
+  6420 |     }
+  6421 |
+  6422 |     const data = await response.json(); (src/components/networking.tsx:6425:13)
+[browser] Failed to fetch remaining users: Error: Network response was not ok
+    at getRemainingUsers (src/components/networking.tsx:6379:13)
+  6377 |       const errorData = await response.text();
+  6378 |       handleError(errorData);
+> 6379 |       throw new Error("Network response was not ok");
+       |             ^
+  6380 |     }
+  6381 |
+  6382 |     const data = await response.json(); (src/components/networking.tsx:6385:13)
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/api/plugins Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/latest_release_info Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/license Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/user/available_users Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/health/readiness/details Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/api/plugins Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/latest_release_info Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+[browser] Failed to fetch license info: Error: Network response was not ok
+    at getLicenseInfo (src/components/networking.tsx:6419:13)
+  6417 |       const errorData = await response.text();
+  6418 |       handleError(errorData);
+> 6419 |       throw new Error("Network response was not ok");
+       |             ^
+  6420 |     }
+  6421 |
+  6422 |     const data = await response.json(); (src/components/networking.tsx:6425:13)
+[browser] Failed to fetch remaining users: Error: Network response was not ok
+    at getRemainingUsers (src/components/networking.tsx:6379:13)
+  6377 |       const errorData = await response.text();
+  6378 |       handleError(errorData);
+> 6379 |       throw new Error("Network response was not ok");
+       |             ^
+  6380 |     }
+  6381 |
+  6382 |     const data = await response.json(); (src/components/networking.tsx:6385:13)
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/team/list Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/sso/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/user_banner Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to create key: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async teamListCall (src/components/networking.tsx:1143:12)
+    at async fetchTeams (src/app/(dashboard)/networking.ts:13:18)
+    at async useTeams.useQuery (src/app/(dashboard)/hooks/teams/useTeams.ts:125:26)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:1153:13)
+[browser] Failed to get callbacks: ApiError: Internal Server Error
+    at fetchChecked (src/lib/http/client.ts:191:13)
+    at async request (src/lib/http/client.ts:198:22)
+    at async getProxyUISettings (src/components/networking.tsx:3494:18)
+  189 |       }
+  190 |       onError?.(message);
+> 191 |       throw new ApiError(message, response.status, errorBody, retryAfterMs(response.headers));
+      |             ^
+  192 |     }
+  193 |
+  194 |     return response; (src/components/networking.tsx:3498:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/config/list?config_type=general_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50&exclude_auto_routers=true Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/model/info?include_team_models=true&page=1&size=50 Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get proxy config for general_settings: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/app/(dashboard)
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+[browser] Failed to create key: Error: Network response was not ok
+    at modelInfoCall (src/components/networking.tsx:1597:13)
+    at async useModelsInfo.useQuery (src/app/(dashboard)/hooks/models/useModels.ts:68:7)
+  1595 |       }
+  1596 |
+> 1597 |       throw new Error("Network response was not ok");
+       |             ^
+  1598 |     }
+  1599 |
+  1600 |     const data = await response.json(); (src/components/networking.tsx:1604:13)
+Failed to proxy http://127.0.0.1:4000/session/logout Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_model_cost_map Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+[browser] Failed to get model cost map: SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON
+SyntaxError: Unexpected token 'I', "Internal S"... is not valid JSON (src/components/networking.tsx:568:13)
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/public/litellm_blog_posts Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get/ui_theme_settings Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_image?theme=dark Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/get_favicon Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/v2/login Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/litellm/.well-known/litellm-ui-config Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/api/ekg/v1/auth/status Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Failed to proxy http://127.0.0.1:4000/api/ekg/v1/health Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}
+Error: connect ECONNREFUSED 127.0.0.1:4000
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:4000) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 4000
+}

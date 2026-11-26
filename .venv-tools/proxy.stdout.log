@@ -1,0 +1,240 @@
+LiteLLM Proxy: Postgres connection budget per pod = 1 worker(s) x writer connection_limit 10 = up to 10 connections; keep pods x that figure under max_connections minus superuser_reserved_connections
+
+   ██╗     ██╗████████╗███████╗██╗     ██╗     ███╗   ███╗
+   ██║     ██║╚══██╔══╝██╔════╝██║     ██║     ████╗ ████║
+   ██║     ██║   ██║   █████╗  ██║     ██║     ██╔████╔██║
+   ██║     ██║   ██║   ██╔══╝  ██║     ██║     ██║╚██╔╝██║
+   ███████╗██║   ██║   ███████╗███████╗███████╗██║ ╚═╝ ██║
+   ╚══════╝╚═╝   ╚═╝   ╚══════╝╚══════╝╚══════╝╚═╝     ╚═╝
+
+query-engine ac9d7041ed77bcc8a8dbd2ab6616b39013829574
+
+[1;37m#------------------------------------------------------------#[0m
+[1;37m#                                                            #[0m
+[1;37m#           'I get frustrated when the product...'            #[0m
+[1;37m#        https://github.com/BerriAI/litellm/issues/new        #[0m
+[1;37m#                                                            #[0m
+[1;37m#------------------------------------------------------------#[0m
+
+ Thank you for using LiteLLM! - Krrish & Ishaan
+
+
+
+[1;31mGive Feedback / Get Help: https://github.com/BerriAI/litellm/issues/new[0m
+
+
+INFO:     127.0.0.1:54820 - "GET /health/readiness HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54822 - "GET /health/readiness HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55088 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55088 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55088 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55089 - "GET /get_favicon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55089 - "POST /v2/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /ui?login=success HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:55095 - "GET /ui/?login=success HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /litellm-asset-prefix/_next/static/chunks/1kid9zr1--h6y.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/3146e697tym4_.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /litellm-asset-prefix/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /litellm-asset-prefix/_next/static/chunks/1edfvwc5_eck-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /litellm-asset-prefix/_next/static/chunks/turbopack-2-a_44aw0u4dz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/1kpvojzxb_2ce.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/0if-vqkhyn-zc.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/1kabwy23ggmhn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /litellm-asset-prefix/_next/static/chunks/1xkrmcontg-7s.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm-asset-prefix/_next/static/chunks/2atns3zer6s42.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/2riseu9p5tv2u.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /litellm-asset-prefix/_next/static/chunks/2wi6ubg_xifzg.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /litellm-asset-prefix/_next/static/chunks/2zf625u-tcwdn.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm-asset-prefix/_next/static/chunks/0eh6yvm8qswse.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/2dsu84-anah7m.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/0aoel7yrv88fp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /litellm-asset-prefix/_next/static/chunks/0uo3fyy_3adzw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /litellm-asset-prefix/_next/static/chunks/28fzwmvhc4sv1.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /litellm-asset-prefix/_next/static/chunks/0stffhbqahki3.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/02erlqrgtvdvz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/1dmuabgwpu2jq.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm-asset-prefix/_next/static/chunks/14hu41xvpzmuj.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /litellm-asset-prefix/_next/static/chunks/2gbkayw_yh5ii.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/0rq646fx4-bql.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /litellm-asset-prefix/_next/static/chunks/1wc_s6k4n6kyj.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /litellm-asset-prefix/_next/static/chunks/3q0srap0rd2s2.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/1x_b27185ie7w.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm-asset-prefix/_next/static/chunks/0x88jgebq4fjq.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/3fj8wylwf-stx.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/033urjy22ackz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /litellm-asset-prefix/_next/static/chunks/1t7m5lyrljbza.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/0ui61y5hgz0ck.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /litellm-asset-prefix/_next/static/chunks/0xl3regan_n7s.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm-asset-prefix/_next/static/chunks/2p1uu5emx8nf4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /get_image HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /get_image?theme=dark HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55097 - "GET /litellm-asset-prefix/_next/static/chunks/2h_4-n4rgy99r.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /litellm-asset-prefix/_next/static/chunks/0n3xjld_n2chp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /get_favicon HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55096 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /public/litellm_blog_posts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "HEAD /ui/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55102 - "HEAD /ui/mcp-servers/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "HEAD /ui/api-keys/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "HEAD /ui/guardrails/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /ui/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /ui/mcp-servers/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55102 - "HEAD /ui/logs/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55102 - "HEAD /ui/teams/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /ui/api-keys/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /ui/guardrails/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55102 - "HEAD /ui/api-reference/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "HEAD /ui/model-hub-table/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /ui/logs/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /ui/teams/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /ui/api-reference/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55102 - "GET /litellm-asset-prefix/_next/static/chunks/1pbkw-7b5ctl4.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /ui/login/?redirect_to=http%3A%2F%2F127.0.0.1%3A4000%2Fui%2F%3Flogin%3Dsuccess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm-asset-prefix/_next/static/chunks/05php4kcqbp33.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm-asset-prefix/_next/static/chunks/3-897mcmj4njz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55100 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55098 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55114 - "POST /v2/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55114 - "GET /ui/index.txt?login=success&_rsc=axTTu7JsSBAkbTj7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55125 - "GET /public/litellm_blog_posts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm/.well-known/litellm-ui-config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /get/ui_settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /public/litellm_blog_posts HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /sso/get/ui_settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /get/user_banner HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /health/license HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "GET /health/readiness/details HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "GET /team/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "GET /v1/agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /project/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /prompts/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /models?include_model_access_groups=True HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /user/available_roles HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /models?include_model_access_groups=True&return_wildcard_routes=True HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "GET /policies/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "GET /get/ui_theme_settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "GET /v2/guardrails/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/api-keys/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/playground/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/models-and-endpoints/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "GET /api/plugins HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /tag/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "GET /get/ui_settings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /user/available_users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /v2/team/list?page=1&page_size=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/playground/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "GET /ui/models-and-endpoints/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "HEAD /ui/mcp-servers/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "HEAD /ui/skills/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/guardrails/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "HEAD /ui/policies/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/usage/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "HEAD /ui/cost-optimization/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/skills/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/logs/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "GET /ui/policies/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/usage/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/teams/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "HEAD /ui/guardrails-monitor/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "HEAD /ui/users/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/cost-optimization/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "HEAD /ui/organizations/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/access-groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/users/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/guardrails-monitor/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55145 - "HEAD /ui/budgets/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55144 - "HEAD /ui/api-reference/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/organizations/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/access-groups/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/__next.%21KGRhc2hib2FyZCk.__PAGE__.txt?_rsc=4xuApNU1lWNBjMDX HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/budgets/__next._tree.txt?_rsc=5CB68i4pnAekjehf HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/api-keys/__next.%21KGRhc2hib2FyZCk.api-keys.__PAGE__.txt?_rsc=WnvpUqtx2Bjltuyo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/playground/__next.%21KGRhc2hib2FyZCk.playground.__PAGE__.txt?_rsc=3S_M4EeFjp0iqtdY HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/models-and-endpoints/__next.%21KGRhc2hib2FyZCk.models-and-endpoints.__PAGE__.txt?_rsc=Me4xj9hklgCRkewA HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/mcp-servers/__next.%21KGRhc2hib2FyZCk.mcp-servers.__PAGE__.txt?_rsc=eJGP2L5ou6qC2JS4 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/skills/__next.%21KGRhc2hib2FyZCk.skills.__PAGE__.txt?_rsc=McRitKJvFxxSjosu HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/42l1q3sduwm1n.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/14iajg5osx1b_.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/guardrails/__next.%21KGRhc2hib2FyZCk.guardrails.__PAGE__.txt?_rsc=96pmRmX1JnZkXtb8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/26lonzfqpktn-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/usage/__next.%21KGRhc2hib2FyZCk.usage.__PAGE__.txt?_rsc=JCZvcln-_r5rcY-q HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/policies/__next.%21KGRhc2hib2FyZCk.policies.__PAGE__.txt?_rsc=bkMDbZW1IkGvKfYO HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/cost-optimization/__next.%21KGRhc2hib2FyZCk.cost-optimization.__PAGE__.txt?_rsc=ed9fU9ik7MNO9p4Z HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/3-v0s366kdlxu.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/294dvnxgzckcv.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/logs/__next.%21KGRhc2hib2FyZCk.logs.__PAGE__.txt?_rsc=MPbI5QRpzYeJrRfG HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/guardrails-monitor/__next.%21KGRhc2hib2FyZCk.guardrails-monitor.__PAGE__.txt?_rsc=mEs18DYJ4-Gge8DU HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/teams/__next.%21KGRhc2hib2FyZCk.teams.__PAGE__.txt?_rsc=wAMpIEiKmfO1JTWM HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /ui/users/__next.%21KGRhc2hib2FyZCk.users.__PAGE__.txt?_rsc=1NbL_REczfs1rFuh HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/181hmzmh2pbea.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/2k4elswwq3t81.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/organizations/__next.%21KGRhc2hib2FyZCk.organizations.__PAGE__.txt?_rsc=aZZoQteSKWjDwP9t HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/access-groups/__next.%21KGRhc2hib2FyZCk.access-groups.__PAGE__.txt?_rsc=TIG2d7QAAf3lM1wo HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/budgets/__next.%21KGRhc2hib2FyZCk.budgets.__PAGE__.txt?_rsc=9u_RMSEGzbld8Kn3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /ui/api-reference/__next.%21KGRhc2hib2FyZCk.api-reference.__PAGE__.txt?_rsc=0-QC4CKv37o4b485 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/11eb6uxtl-k7c.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/1_y65bkmye44e.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/1vx0ue3bnkg7f.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/3m3rxvigp6yiy.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/3rkhwvlrs1x6n.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/2dfd44r3wlgbs.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/27quqoym0jo1p.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/0vpn3th7sn4vf.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /key/list?page=1&size=50&sort_by=created_at&sort_order=desc&expand=user&return_full_object=true&include_team_keys=true&include_created_by_keys=true&substring_matching=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/02mlplp0iptro.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/37ku8zflc54x3.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/1gpv-xuoo10dp.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/40quyruy3-8rk.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/2q8oe0lfniocu.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/11o_e34ji0wx-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/2b257g45-_kw_.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/1mxw9csimvguo.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/3u529u1niwact.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/2_kecjz4xqx6-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/2uektj96b2c8r.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/204s1dxqrry1v.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55147 - "GET /litellm-asset-prefix/_next/static/chunks/0ldd7ocximwhh.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /v2/team/list?page=1&page_size=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/3p8aoxk193z4f.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/3ml7dos958scm.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/3isv0esm685r_.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/3xo65w_zz25u4.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/1m3jry71r_5_g.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/2zjjg9kwx-prh.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/1_hijls2yk428.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/1-metsezi443m.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/1_72xbmbyxrhd.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/0eybcbrej9bl8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/09qlj1_ya5uqw.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/0_t1_1-2to_0w.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/0t3a_qboss-93.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/3tq9657hib0lm.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/22lms4uqygnld.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/058x5ogyudznz.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/2qcqdx8wuwu1-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/3o46x9-ng2-6l.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/3yhyaee1a4q65.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/2rzy9gopg5khe.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/3zjugegu2ubgy.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/0ec5zmg5_3qwx.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/2da7ygpq4ndo8.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/44klf7haf_-66.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/09kfqcp7rqvl7.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/1e_4bxdqx4u66.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/034i32t0-7tdv.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/3jyuhlymn08un.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55127 - "GET /litellm-asset-prefix/_next/static/chunks/0xsuy-8_q50ub.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55146 - "GET /litellm-asset-prefix/_next/static/chunks/41k0j0bj-1r2j.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55132 - "GET /litellm-asset-prefix/_next/static/chunks/44p4cs0gfsy-h.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55181 - "GET /v1/models HTTP/1.1" 200 OK
+{"timestamp":"2026-10-09T01:49:49.472173Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T01:49:53.462146Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T01:50:09.991234Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T01:50:09.993432Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T01:50:09.993636Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T01:50:09.995687Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T02:25:19.467913Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
+{"timestamp":"2026-10-09T02:25:23.483851Z","level":"ERROR","fields":{"message":"Error in PostgreSQL connection: Error { kind: Io, cause: Some(Os { code: 10054, kind: ConnectionReset, message: \"An existing connection was forcibly closed by the remote host.\" }) }"},"target":"quaint::connector::postgres"}
